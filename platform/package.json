@@ -1,0 +1,11 @@
+{
+  "name": "@dedial/platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"build": "node ../tools/build-site.mjs platform"},
+  "dependencies": {
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.118.0"
+  }
+}

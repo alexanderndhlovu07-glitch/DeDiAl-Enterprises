@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f2">
+  <meta name="description" content="Bring your next move together with DeDiAl. Explore local services, start global sourcing requests, and find your direction with Lex, your personal AI assistant.">
+  <title>DeDiAl — Your world. In motion.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/BDOGrotesk-VF.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/logistics-harbour.webp" as="image" imagesrcset="assets/logistics-harbour-small.webp 900w, assets/logistics-harbour.webp 1600w" imagesizes="(max-width: 900px) 92vw, 64vw">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="feature-section.css">
+  <link rel="stylesheet" href="design-evolution.css">
+  <script src="config.js" defer></script>
+  <script src="water-effects.js" defer></script>
+  <script src="script.js" defer></script>
+  <script src="experience-previews.js" defer></script>
+  <script src="feature-section.js" defer></script>
+  <script src="design-evolution.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="arrow-up" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="spark" viewBox="0 0 24 24"><path d="m12 3 2.6 6.4L21 12l-6.4 2.6L12 21l-2.6-6.4L3 12l6.4-2.6Z"/></symbol>
+  </svg>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="DeDiAl home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+      <span>DeDiAl</span><sup>®</sup>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a class="nav-link" href="#possibilities">The possibilities</a>
+      <a class="nav-link" href="#lex-scene">Meet Lex <span class="nav-dot" aria-hidden="true"></span></a>
+    </nav>
+    <div class="header-actions">
+      <a class="login-link nav-link" href="https://dedial-platform.vercel.app/#login" data-platform-link data-platform-route="login">Log in</a>
+      <a class="button button--compact" href="https://dedial-platform.vercel.app/#signup" data-platform-link data-platform-route="signup"><span>Get started</span><svg aria-hidden="true"><use href="#arrow-up"/></svg></a>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation" hidden>
+      <a href="#possibilities">The possibilities <span>01</span></a>
+      <a href="#lex-scene">Meet Lex <span>02</span></a>
+      <a href="https://dedial-platform.vercel.app/#login" data-platform-link data-platform-route="login">Log in <svg aria-hidden="true"><use href="#arrow-up"/></svg></a>
+    </nav>
+  </header>
+  <div id="menu-backdrop" class="menu-backdrop" aria-hidden="true"></div>
+  <main id="main" tabindex="-1">
+    <section id="top" class="hero hero--objects hero--cargo" aria-labelledby="hero-title">
+      <div class="hero-meta"><span class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Local roots. Limitless reach.</span><span class="hero-location">Lusaka, Zambia <span aria-hidden="true">↗</span> Your world</span></div>
+      <div class="hero-stage">
+        <div class="hero-atmosphere" aria-hidden="true"><span class="hero-horizon"></span><span class="hero-coordinate">15°24′ S / 28°17′ E</span></div>
+        <div class="hero-content-depth">
+        <div class="hero-copy">
+          <h1 id="hero-title"><span class="type-mask"><span data-reveal>Your world.</span></span><span class="type-mask hero-title-second"><span data-reveal data-reveal-delay="140">In motion.</span></span></h1>
+          <div class="hero-bottom" data-reveal data-reveal-delay="240">
+            <p>Commerce, stays and everyday services.<br class="desktop-break"> Procurement and logistics.<br class="desktop-break"> One connected world, rooted in Zambia.</p>
+            <a class="button" href="https://dedial-platform.vercel.app/#signup" data-platform-link data-platform-route="signup" data-magnetic="8"><span>Make your next move</span><span class="button-arrow"><svg aria-hidden="true"><use href="#arrow-up"/></svg></span></a>
+          </div>
+        </div>
+        </div>
+        <div class="hero-objects-depth">
+          <div class="hero-objects-entry" data-reveal data-reveal-delay="180">
+            <div class="hero-scene-window">
+            <figure class="hero-object-stage" aria-label="Air cargo and sea cargo, moving through a global harbour">
+              <div class="hero-harbour-depth" aria-hidden="true"><picture><source media="(max-width: 900px)" srcset="assets/logistics-harbour-small.webp"><img class="hero-harbour" src="assets/logistics-harbour.webp" width="1600" height="900" fetchpriority="high" alt=""></picture></div>
+              <canvas id="hero-water-effects" aria-hidden="true"></canvas>
+              <div class="hero-plane-depth" aria-hidden="true"><img class="hero-plane" src="assets/logistics-plane.webp" srcset="assets/logistics-plane-small.webp 680w, assets/logistics-plane.webp 1200w" sizes="(max-width: 650px) 52vw, 42vw" width="1200" height="400" decoding="async" alt="" draggable="false"></div>
+              <div class="hero-ship-depth" aria-hidden="true"><img class="hero-ship" src="assets/logistics-ship.webp" srcset="assets/logistics-ship-small.webp 380w, assets/logistics-ship.webp 680w" sizes="(max-width: 650px) 25vw, 18vw" width="680" height="799" decoding="async" alt="" draggable="false"></div>
+              <div class="hero-cargo-label hero-cargo-label--air" aria-hidden="true"><span class="cargo-label-caption">Across the skies</span><span class="cargo-label-title">AIR CARGO</span><span class="cargo-label-rule"></span></div>
+              <div class="hero-cargo-label hero-cargo-label--sea" aria-hidden="true"><span class="cargo-label-caption">Across the oceans</span><span class="cargo-label-title">SEA CARGO</span><span class="cargo-label-rule"></span></div>
+              <figcaption class="sr-only">Air cargo and sea cargo. Scroll down to follow the plane as it flies past, then the ship as it moves through the water. Scroll up to reverse their journeys.</figcaption>
+            </figure>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card-depth hero-card-depth--route">
+          <div class="hero-glass hero-route" data-reveal data-reveal-delay="400">
+            <div class="hero-card-heading"><span>Route preview</span><span class="hero-card-marker" aria-hidden="true">↗</span></div>
+            <div class="hero-route-cities"><span>China</span><span>Zambia</span></div>
+            <svg class="hero-route-line" viewBox="0 0 230 36" aria-hidden="true"><path d="M8 26C75-8 155-8 222 26"/><circle cx="8" cy="26" r="3"/><circle cx="222" cy="26" r="3"/><path class="route-plane" d="m108 9 14 3-14 3 3-3Z"/></svg>
+            <div class="hero-route-modes"><span>Across borders</span><span>Air / Sea</span></div>
+          </div>
+        </div>
+        <div class="hero-card-depth hero-card-depth--workspace">
+          <div class="hero-glass hero-workspace" data-reveal data-reveal-delay="520">
+            <div class="hero-card-heading"><span>Your workspace</span><span class="hero-workspace-dot" aria-hidden="true"></span></div>
+            <p>Everything.<br><span>Connected.</span></p>
+            <div class="hero-workspace-links"><span>Commerce</span><span>Stays</span><span>Lex</span></div>
+          </div>
+        </div>
+        <div class="hero-foot"><a class="scroll-cue" href="#possibilities"><span class="scroll-line" aria-hidden="true"></span> Explore what’s possible</a><span class="hero-foot-note">Built around you. <span aria-hidden="true">/</span> DeDiAl Enterprises</span></div>
+      </div>
+    </section>
+
+    <!-- Customize feature copy, images, links and motion in this section. -->
+    <section id="possibilities" class="feature-section" aria-labelledby="possibilities-title" data-feature-motion="true" data-parallax-distance="28">
+      <header class="feature-intro">
+        <p class="eyebrow">01 — A world of possibilities</p>
+        <div><h2 id="possibilities-title">Closer to what you need.<br><span>Further with what you imagine.</span></h2>
+        <p>Explore the DeDiAl vision through five interactive concepts. From everyday discoveries to international trade, every possibility has a place.</p></div>
+      </header>
+      <nav class="feature-navigation" aria-label="Explore our features">
+        <a href="#local-feature"><span>01</span> Local services <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+        <a href="#global-feature"><span>02</span> Global sourcing <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+      </nav>
+      <article id="local-feature" class="feature-row" aria-labelledby="local-title">
+        <div class="feature-visual">
+          <div class="feature-image-window"><img class="feature-image" src="assets/local-moments.webp" srcset="assets/local-moments-small.webp 720w, assets/local-moments.webp 1536w" sizes="(max-width: 760px) 92vw, 50vw" width="1536" height="1024" loading="lazy" decoding="async" alt="A woman exploring local services on her phone in a sunlit living room"></div>
+          <span class="feature-image-label">01 / Everyday, easier.</span>
+          <div class="feature-preview"><span class="feature-preview-icon" aria-hidden="true"><svg><use href="#spark"/></svg></span><div><span class="feature-preview-label">Your next free moment</span><p>A little more time for you.</p></div></div>
+        </div>
+        <div class="feature-copy">
+          <p class="eyebrow"><span class="feature-number">01</span> Close to home</p>
+          <h3 id="local-title">Local services.<br><span>On your schedule.</span></h3>
+          <p>Find a service and a time that works for you. Bring bookings and reservations into one place, so planning your day takes a little less back-and-forth.</p>
+          <ol class="feature-process" aria-label="Local service journey"><li><span>01</span> Discover a service</li><li><span>02</span> Review the details</li><li><span>03</span> Make your booking</li></ol>
+          <a class="button feature-cta" href="https://dedial-platform.vercel.app/#signup" data-platform-link data-platform-route="signup"><span>Explore local services</span><span class="button-arrow"><svg aria-hidden="true"><use href="#arrow-up"/></svg></span></a>
+          <p class="feature-link-note">Create an account to get started.</p>
+        </div>
+      </article>
+      <article id="global-feature" class="feature-row feature-row--reverse" aria-labelledby="global-title">
+        <div class="feature-visual feature-visual--global">
+          <div class="feature-image-window"><img class="feature-image" src="assets/global-sourcing-editorial-v2.jpg" width="1536" height="1024" sizes="(max-width: 760px) 92vw, 50vw" loading="lazy" decoding="async" alt="A green and ivory globe connected by shipping routes, with parcels, an aircraft and a cargo ship"></div>
+          <span class="feature-image-label">02 / Ideas, moving forward.</span>
+          <div class="feature-preview"><span class="feature-preview-icon" aria-hidden="true"><svg><use href="#arrow-up"/></svg></span><div><span class="feature-preview-label">A wider world of possibility</span><p>Your idea. The next step, connected.</p></div></div>
+        </div>
+        <div class="feature-copy">
+          <p class="eyebrow"><span class="feature-number">02</span> Beyond borders</p>
+          <h3 id="global-title">Source globally.<br><span>Start with an idea.</span></h3>
+          <p>Turn the product you have in mind into a clear sourcing request. Share the specifications and quantity, explore possibilities across China, the USA, the UK and beyond, and keep your next step in view.</p>
+          <ol class="feature-process" aria-label="Global sourcing journey"><li><span>01</span> Describe your product</li><li><span>02</span> Set the quantity</li><li><span>03</span> Start your request</li></ol>
+          <a class="button feature-cta" href="https://dedial-platform.vercel.app/#signup" data-platform-link data-platform-route="signup"><span>Start a sourcing request</span><span class="button-arrow"><svg aria-hidden="true"><use href="#arrow-up"/></svg></span></a>
+          <p class="feature-link-note">Create an account to get started.</p>
+        </div>
+      </article>
+      <div class="feature-assistant"><span class="feature-assistant-mark" aria-hidden="true"><svg><use href="#spark"/></svg></span><p>Not sure where to begin?<br><span>Give Lex an idea. Find your next step.</span></p><a href="#try-lex">Try a Lex example <svg aria-hidden="true"><use href="#arrow"/></svg></a></div>
+    </section>
+
+    <section id="lex-scene" class="lex-scene" aria-labelledby="lex-title">
+      <div class="lex-sticky">
+        <div class="lex-topline"><p class="eyebrow">02 — A little direction goes a long way</p><span class="lex-indicator"><span aria-hidden="true"></span> Your personal AI assistant</span></div>
+        <div class="lex-composition">
+          <div class="lex-copy">
+            <p class="lex-pretitle" data-reveal>Meet</p>
+            <h2 id="lex-title" data-reveal>Lex<span>.</span></h2>
+            <p class="lex-description" data-reveal>Big plans.<br>Everyday things.<br><span>A good place to start.</span></p>
+            <p class="lex-explanation" data-reveal>One connected intelligence layer for your world. Explore how Lex could bring products, stays, services and business journeys into context.</p>
+            
+            <a class="line-link line-link--light" href="#try-lex" data-reveal><span>Give Lex a direction</span><span class="line-arrow"><svg aria-hidden="true"><use href="#arrow"/></svg></span></a>
+          </div>
+          <div class="lex-visual">
+            <div class="lex-orbit lex-orbit--one" aria-hidden="true"></div><div class="lex-orbit lex-orbit--two" aria-hidden="true"></div>
+            <div class="lex-orb-frame"><img class="lex-orb" src="assets/lex-orb.webp" srcset="assets/lex-orb-small.webp 720w, assets/lex-orb.webp 1024w" sizes="(max-width: 650px) 90vw, 40vw" width="1024" height="1024" loading="lazy" decoding="async" alt="A pearl and teal glass orb representing Lex"></div>
+            
+          </div>
+        </div>
+        <div class="lex-timeline" aria-hidden="true"><span></span></div>
+        <div class="lex-bottomline"><span>From “where do I begin?” to your next move.</span><span class="lex-scroll-label">Scroll to explore <span aria-hidden="true">↓</span></span></div>
+      </div>
+    </section>
+
+    <section id="try-lex" class="lex-playground" aria-labelledby="try-lex-title">
+      <div class="playground-heading">
+        <p class="eyebrow" data-reveal>A conversation starts here</p>
+        <h2 id="try-lex-title" data-reveal>Start with<br><span>a conversation.</span></h2>
+        <p data-reveal>Pick an idea. Explore a sample conversation.</p>
+      </div>
+      <div class="lex-example" data-reveal>
+        <div class="lex-example-heading"><span class="mini-lex"><img src="assets/lex-orb-small.webp" width="40" height="40" alt="">Lex</span></div>
+        <p class="concept-caption">Interactive concept · illustrative responses</p><p class="lex-greeting">I’m Lex, your personal assistant.<br>What would you like me to do for you?</p>
+        <div class="lex-choices" role="group" aria-label="Explore a Lex example">
+          <button type="button" data-lex-example="book" aria-pressed="false"><span>Book something nearby</span><svg aria-hidden="true"><use href="#arrow-up"/></svg></button>
+          <button type="button" data-lex-example="source" aria-pressed="false"><span>Source a product</span><svg aria-hidden="true"><use href="#arrow-up"/></svg></button>
+          <button type="button" data-lex-example="stay" aria-pressed="false"><span>Plan a stay</span><svg aria-hidden="true"><use href="#arrow-up"/></svg></button>
+          <button type="button" data-lex-example="commerce" aria-pressed="false"><span>Find something for my space</span><svg aria-hidden="true"><use href="#arrow-up"/></svg></button>
+          <button type="button" data-lex-example="activity" aria-pressed="false"><span>See my activity</span><svg aria-hidden="true"><use href="#arrow-up"/></svg></button>
+        </div>
+        <p id="lex-response" role="status" aria-live="polite">A service, a product, a plan. Choose an example to see the next step.</p>
+        <a id="lex-launch" class="line-link" href="https://dedial-platform.vercel.app/#signup" data-platform-link data-platform-route="signup"><span>Continue with DeDiAl</span><span class="line-arrow"><svg aria-hidden="true"><use href="#arrow"/></svg></span></a>
+        <noscript><p class="noscript-note">Open DeDiAl to explore Lex and your next move.</p></noscript>
+      </div>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <p class="eyebrow" data-reveal>Your world. Better connected.</p>
+      <h2 id="closing-title"><span class="type-mask"><span data-reveal>Your next move.</span></span><span class="type-mask"><span data-reveal data-reveal-delay="120">Starts here<span class="closing-dot">.</span></span></span></h2>
+      <div class="closing-bottom" data-reveal><p>Local roots. New possibilities.<br>A little help from Lex.</p><div class="closing-actions"><a class="button button--large" href="https://dedial-platform.vercel.app/#signup" data-platform-link data-platform-route="signup" data-magnetic="8"><span>Create your account</span><span class="button-arrow"><svg aria-hidden="true"><use href="#arrow-up"/></svg></span></a><a class="closing-login" href="https://dedial-platform.vercel.app/#login" data-platform-link data-platform-route="login">Already connected? <span>Log in <svg aria-hidden="true"><use href="#arrow-up"/></svg></span></a></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand brand--footer" href="#top" aria-label="Back to DeDiAl home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>DeDiAl</span><sup>®</sup></a><p>© <span data-current-year>2026</span> DeDiAl Enterprises. Built around you.</p><a class="footer-top" href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
+

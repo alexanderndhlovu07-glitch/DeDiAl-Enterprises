@@ -1,0 +1,260 @@
+[
+  {
+    "path": "landing/feature-section.css",
+    "source": "https://dedial-enterprises.vercel.app/feature-section.css",
+    "sha256": "3fe6ab74a0fdcad1fcde0c5db9d8a5f4ddacdca42e3056c8cd8494806f37fbd0",
+    "bytes": 20357
+  },
+  {
+    "path": "landing/design-evolution.css",
+    "source": "https://dedial-enterprises.vercel.app/design-evolution.css",
+    "sha256": "f837d1d75816117742aec94ac73b909461ff7cec86f64e0f86264b616bc80d16",
+    "bytes": 8467
+  },
+  {
+    "path": "landing/styles.css",
+    "source": "https://dedial-enterprises.vercel.app/styles.css",
+    "sha256": "0b7068a1adaf27f3e6fe15363de955c40f8089b895897a9b0308eec5be3ec1db",
+    "bytes": 47393
+  },
+  {
+    "path": "landing/design-evolution.js",
+    "source": "https://dedial-enterprises.vercel.app/design-evolution.js",
+    "sha256": "ed783e3803b02bd9ae9371f89e1dad6e2673e728de203ebebfcdae3578e0ef50",
+    "bytes": 1558
+  },
+  {
+    "path": "landing/water-effects.js",
+    "source": "https://dedial-enterprises.vercel.app/water-effects.js",
+    "sha256": "387e64d1860a5fb7ab17d36292b916a16a1551527ed15f1b29d6e5bc526c6f34",
+    "bytes": 10380
+  },
+  {
+    "path": "landing/script.js",
+    "source": "https://dedial-enterprises.vercel.app/script.js",
+    "sha256": "65d72b0543cc8c1bd569644cfc521abaefa7d580f02eee4c5bbb01dbf95dadb1",
+    "bytes": 27440
+  },
+  {
+    "path": "landing/feature-section.js",
+    "source": "https://dedial-enterprises.vercel.app/feature-section.js",
+    "sha256": "9e72beee3eec7bd45b713f9f9e0cd17b164b745d2279bcd1e0cde8b4724c748f",
+    "bytes": 7193
+  },
+  {
+    "path": "landing/experience-previews.js",
+    "source": "https://dedial-enterprises.vercel.app/experience-previews.js",
+    "sha256": "88337ef564b5ab4c5bc10ba38cdce2f3d4a29be714c6c68719ed6959f2e31a7c",
+    "bytes": 10613
+  },
+  {
+    "path": "landing/config.js",
+    "source": "https://dedial-enterprises.vercel.app/config.js",
+    "sha256": "0fa4c780a3fcc2ab773a4a14f5bb6f626805e732bfc75b46b44b712ce5a3f2da",
+    "bytes": 91
+  },
+  {
+    "path": "landing/index.html",
+    "source": "https://dedial-enterprises.vercel.app/",
+    "sha256": "0168afd8f39ccc344f9afe62ead79009a80f60e7eb0972172ac1c5094f05b432",
+    "bytes": 18711
+  },
+  {
+    "path": "landing/assets/favicon.svg",
+    "source": "https://dedial-enterprises.vercel.app/assets/favicon.svg",
+    "sha256": "38b399c48ba714fe5fc8e39f3cfa465168982c26d4252ee7592efc8781e8e4b8",
+    "bytes": 262
+  },
+  {
+    "path": "landing/assets/logistics-ship-small.webp",
+    "source": "https://dedial-enterprises.vercel.app/assets/logistics-ship-small.webp",
+    "sha256": "07f16784b9f4bce7dbd18091c474ba1f338ec44a8446e8cff307a1e2d8fa8e8a",
+    "bytes": 45160
+  },
+  {
+    "path": "landing/assets/global-sourcing-editorial-v2.jpg",
+    "source": "https://dedial-enterprises.vercel.app/assets/global-sourcing-editorial-v2.jpg",
+    "sha256": "74476b67832e1dc12249e397971c71ec09893fddbf2260af389e12d0fd7d4dff",
+    "bytes": 272857
+  },
+  {
+    "path": "landing/assets/logistics-plane.webp",
+    "source": "https://dedial-enterprises.vercel.app/assets/logistics-plane.webp",
+    "sha256": "c31b7826fb24e1f359b81e675446ae51704878516b91d65df76399c549817909",
+    "bytes": 62808
+  },
+  {
+    "path": "landing/assets/logistics-plane-small.webp",
+    "source": "https://dedial-enterprises.vercel.app/assets/logistics-plane-small.webp",
+    "sha256": "3b343bae5a19a7ecd2e1593cbe5e664ac8ddfd4e74b5b9c16613000e9382e786",
+    "bytes": 26190
+  },
+  {
+    "path": "landing/assets/lex-orb-small.webp",
+    "source": "https://dedial-enterprises.vercel.app/assets/lex-orb-small.webp",
+    "sha256": "75faa5cb970cd70ea314fe20e815a5ffe62e335ea61cc8a2610906a2dd42ed3e",
+    "bytes": 60108
+  },
+  {
+    "path": "landing/assets/local-moments-small.webp",
+    "source": "https://dedial-enterprises.vercel.app/assets/local-moments-small.webp",
+    "sha256": "6f09ddf8cc834838eb5f586ca74576916d2bab9e9c1387db7c68d87e6722d193",
+    "bytes": 57372
+  },
+  {
+    "path": "landing/assets/logistics-harbour-small.webp",
+    "source": "https://dedial-enterprises.vercel.app/assets/logistics-harbour-small.webp",
+    "sha256": "57bc0da2b1c8062d4499d5d9027fe54f6f442c3d881cea9d76359f493691b148",
+    "bytes": 79132
+  },
+  {
+    "path": "landing/assets/commerce-still-life.png",
+    "source": "https://dedial-enterprises.vercel.app/assets/commerce-still-life.png",
+    "sha256": "c567ef91c90562b6d417ebe46af5d11c45291d4765209fbab984cf4a2003d434",
+    "bytes": 2205112
+  },
+  {
+    "path": "landing/assets/logistics-ship.webp",
+    "source": "https://dedial-enterprises.vercel.app/assets/logistics-ship.webp",
+    "sha256": "9beb9532d5113547df5635b8d5b3ab88540bfe25f784229b501d667eb096b429",
+    "bytes": 125434
+  },
+  {
+    "path": "landing/assets/river-house-concept.png",
+    "source": "https://dedial-enterprises.vercel.app/assets/river-house-concept.png",
+    "sha256": "3db5bd34769d4adc1327995b901c46f248ef192ff2cd19bffc2f55cef75a64be",
+    "bytes": 3287715
+  },
+  {
+    "path": "landing/assets/local-moments.webp",
+    "source": "https://dedial-enterprises.vercel.app/assets/local-moments.webp",
+    "sha256": "27a8aa81367d43692727db05ecd7693b43910ba2c8752dacd645391ffb253717",
+    "bytes": 196044
+  },
+  {
+    "path": "landing/assets/BDOGrotesk-VF.ttf",
+    "source": "https://dedial-enterprises.vercel.app/assets/BDOGrotesk-VF.ttf",
+    "sha256": "db3ab4ddaa17fdfeed54ed38658608963be60b82d1aa43ec47b5cffd9c138f6c",
+    "bytes": 289272
+  },
+  {
+    "path": "landing/assets/logistics-harbour.webp",
+    "source": "https://dedial-enterprises.vercel.app/assets/logistics-harbour.webp",
+    "sha256": "88dd806af76636500048852ab74aeb7fe520c43c7463b074e2fccb612e3e5e6d",
+    "bytes": 221772
+  },
+  {
+    "path": "landing/assets/global-sourcing.webp",
+    "source": "https://dedial-enterprises.vercel.app/assets/global-sourcing.webp",
+    "sha256": "a69e615ef8178a642947a601017c9d6e7d570d66585b6326ae9e097a760f27b4",
+    "bytes": 149274
+  },
+  {
+    "path": "landing/assets/lex-orb.webp",
+    "source": "https://dedial-enterprises.vercel.app/assets/lex-orb.webp",
+    "sha256": "0b0a4a84c3e6d4a03dea35f8d347d1b9c63712681a45fc8856c03a564a001517",
+    "bytes": 117594
+  },
+  {
+    "path": "platform/config.js",
+    "source": "https://dedial-platform.vercel.app/config.js",
+    "sha256": "c7b82576fb3fd9e2b6e7d3cf0942803dc4a1f417300a520007b803419fa23230",
+    "bytes": 93
+  },
+  {
+    "path": "platform/index.html",
+    "source": "https://dedial-platform.vercel.app/",
+    "sha256": "cf6c0757ab21e05d5ecc47b1df4b99a49f7ea33ba4dd81d1e6b057abff78eeb1",
+    "bytes": 793
+  },
+  {
+    "path": "platform/src/auth-view.js",
+    "source": "https://dedial-platform.vercel.app/src/auth-view.js",
+    "sha256": "965bbf1ef88dadd8855050a8619d2c75d612a8c7e71213cc595a88966b67be89",
+    "bytes": 6629
+  },
+  {
+    "path": "platform/src/domain.js",
+    "source": "https://dedial-platform.vercel.app/src/domain.js",
+    "sha256": "1d7c386d39747afc9c630bba62313c5fbf14c5fb93a9f32773a70e887579d404",
+    "bytes": 11221
+  },
+  {
+    "path": "platform/src/styles.css",
+    "source": "https://dedial-platform.vercel.app/src/styles.css",
+    "sha256": "9203ed283a80a72db37b0d437cc46e88d266b7bd5f1af90e08cf7563efdba723",
+    "bytes": 59232
+  },
+  {
+    "path": "platform/src/auth-client.js",
+    "source": "https://dedial-platform.vercel.app/src/auth-client.js",
+    "sha256": "64c5649f03d0fd97e2c9e0dac9ebae663ff2cfb209ca24346413b92ea1f98385",
+    "bytes": 1739
+  },
+  {
+    "path": "platform/src/app.js",
+    "source": "https://dedial-platform.vercel.app/src/app.js",
+    "sha256": "a778d5bfe491502c2d3f69a2d27c2a5e1be2a289265353258b058c982433b170",
+    "bytes": 63882
+  },
+  {
+    "path": "platform/public/favicon.svg",
+    "source": "https://dedial-platform.vercel.app/public/favicon.svg",
+    "sha256": "38b399c48ba714fe5fc8e39f3cfa465168982c26d4252ee7592efc8781e8e4b8",
+    "bytes": 262
+  },
+  {
+    "path": "platform/public/assets/lex-auth-orb.png",
+    "source": "https://dedial-platform.vercel.app/public/assets/lex-auth-orb.png",
+    "sha256": "dc4856875fea9ee6675f6fe67a6aa035062fc3062c6bc72aa7643420e43dcfd8",
+    "bytes": 1380809
+  },
+  {
+    "path": "platform/public/assets/warehouse-procurement.jpg",
+    "source": "https://dedial-platform.vercel.app/public/assets/warehouse-procurement.jpg",
+    "sha256": "757fc096583b26861a20fa786199ec152eb05929d62b2081945a025acbc751bf",
+    "bytes": 80736
+  },
+  {
+    "path": "platform/public/assets/logistics-hero.jpg",
+    "source": "https://dedial-platform.vercel.app/public/assets/logistics-hero.jpg",
+    "sha256": "b1d45d39a80eea7232fc99d0906a6683967a748495f9f08ad4fa2c7b6a1a0e20",
+    "bytes": 83823
+  },
+  {
+    "path": "platform/public/assets/motion-figure.jpg",
+    "source": "https://dedial-platform.vercel.app/public/assets/motion-figure.jpg",
+    "sha256": "11b58a2498f5e8adc31c417155d748f745429b5c162272700d50ffbfbde12e2e",
+    "bytes": 141182
+  },
+  {
+    "path": "platform/public/assets/bookings-woman.png",
+    "source": "https://dedial-platform.vercel.app/public/assets/bookings-woman.png",
+    "sha256": "d1aafefa43da1cba04a99b0293ff873531f87be144d8febcc1a56b85eced03d5",
+    "bytes": 1481323
+  },
+  {
+    "path": "platform/public/assets/glass-cloth.jpg",
+    "source": "https://dedial-platform.vercel.app/public/assets/glass-cloth.jpg",
+    "sha256": "709cf929c2914256f51e2e000c262e6f2eed3463303cb0b507a7ea960a22b39c",
+    "bytes": 129982
+  },
+  {
+    "path": "platform/public/assets/glass-forms.jpg",
+    "source": "https://dedial-platform.vercel.app/public/assets/glass-forms.jpg",
+    "sha256": "026c62397627bef6a35828147b9e4ae0830d57997c9fed82b57bbeaa52d49da0",
+    "bytes": 46711
+  },
+  {
+    "path": "platform/public/assets/soft-glass.jpg",
+    "source": "https://dedial-platform.vercel.app/public/assets/soft-glass.jpg",
+    "sha256": "9d47ed035ace0b6c36250e457abc787acee0f355536eefed237cf8d25fded44d",
+    "bytes": 23424
+  },
+  {
+    "path": "platform/public/assets/lex-orb.webp",
+    "source": "https://dedial-platform.vercel.app/public/assets/lex-orb.webp",
+    "sha256": "f374b959d67618918799c52e12c257a7dce775728640f1f9c36afd10ff536523",
+    "bytes": 49356
+  }
+]
